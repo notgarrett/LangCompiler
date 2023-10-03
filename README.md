@@ -15,7 +15,7 @@ function <id> (<type> <id>, <type> <id>, ... , <type> <id>) <statement>
 
 ### Statements
 ```
-- { <statmemt> }
+- { <statememt> }
 - <expression>;
 - ;
 - if (<expression>) <statement>
@@ -37,15 +37,15 @@ or
 - <number literal>
 - <text literal>
 - <id>
-- <expression>[<expression>]
-- <expression>(<expression>, <expression>, ... , <expression>)
+- <expression>[<expression>] - indexing expression
+- <expression>(<expression>, <expression>, ... , <expression>) - function call expression
 - <expression><binary operator><expression>
 - <unary operator><expression>
 - <preincrement><expression>
 - <predecrement><expression>
 - <expression><postincrement>
 - <epxression><postdecrement>
-- <expression>? yes: <expression> no: <expression>
+- <expression>? yes: <expression> no: <expression> - ternary expression
 ```
 
 ### Arrays
