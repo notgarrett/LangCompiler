@@ -1,4 +1,4 @@
-# LangCompiler
+# LUC Compiler
 
 ## Syntax and Sematics
 
